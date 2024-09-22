@@ -1,0 +1,37 @@
+body {
+	color: white;
+	background-color:black;
+	font-family: Arial;
+	position: relative
+}
+article {
+	height: 100%;
+	position: relative;
+	left: 35%;
+}
+
+article > h1 {
+	color: white;
+	background-color:black;
+	font-family: Arial;
+	
+	width: 260px;
+	height: 20px;
+	padding: 1rem;
+	border: 2px solid white;
+	margin: 5px;
+}
+article > h2 {
+	color: white;
+	background-color:black;
+	font-family: Arial;
+	
+	width: 260px;
+	height: 20px;
+	padding: 1rem;
+	border: 2px solid ----;
+	margin: 5px;
+}
+.albums {
+	position: relative;
+    left: -25%;
