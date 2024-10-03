@@ -1,37 +1,52 @@
+html {
+	width: 77%;
+}
 body {
 	color: white;
 	background-color:black;
-	font-family: Arial;
-	position: relative
+	font-family: Courier New;
 }
 article {
-	height: 100%;
 	position: relative;
-	left: 35%;
+	top: 20%;
+	left: 30%;
 }
-
-article > h1 {
+footer {
+	position: absolute;
+	bottom: 0px;
+	
+	width: 97%;
+	height: 30px;
+	padding: 10px;
+	border-top: 2px solid white;
+	margin: 5px;
+}
+.sub {
+	position: relative;
+	left: 18%;
+	
 	color: white;
 	background-color:black;
-	font-family: Arial;
+	font-size: 30;
 	
 	width: 260px;
 	height: 20px;
-	padding: 1rem;
+	padding: 20px;
 	border: 2px solid white;
 	margin: 5px;
 }
-article > h2 {
+.sub2 {
 	color: white;
 	background-color:black;
-	font-family: Arial;
 	
 	width: 260px;
 	height: 20px;
-	padding: 1rem;
-	border: 2px solid ----;
+	padding: 20px;
 	margin: 5px;
 }
-.albums {
-	position: relative;
-    left: -25%;
+.link {
+	color: #FE019A;
+}
+.hlink {
+	color: white;
+}
