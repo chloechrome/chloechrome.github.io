@@ -1,52 +1,98 @@
 html {
-	width: 77%;
+	width: 100%;
+	max-width: 1750px;
 }
+#row1 {
+	display: flex;
+	align-items: flex-end;
+}
+#left1 {
+	flex: 1;
+	border: 2px solid white;
+	
+	position: relative;
+	left: 10%;
+	
+	height: 220px;
+	width: 220px;
+}
+#right1 {
+	flex: 5;
+	
+	position: relative;
+	left: 12%;
+}
+
+#row2 {
+	display: flex;
+	align-items: flex-start	;
+}
+#left2 {
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	
+	position: relative;
+	left: 10%;
+	
+	width: 220px;
+}
+#right2 {
+	position: relative;
+	left: 12%;
+}
+
 body {
 	color: white;
 	background-color:black;
 	font-family: Courier New;
 }
+main {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
 article {
 	position: relative;
-	top: 20%;
+	top: 0%;
 	left: 30%;
 }
 footer {
-	position: absolute;
-	bottom: 0px;
+	position: relative;
+	top: 30px;
+	right: 30%;
 	
-	width: 97%;
+	width: 100%;
 	height: 30px;
 	padding: 10px;
 	border-top: 2px solid white;
 	margin: 5px;
 }
 .sub {
-	position: relative;
-	left: 18%;
-	
-	color: white;
-	background-color:black;
-	font-size: 30;
-	
-	width: 260px;
-	height: 20px;
-	padding: 20px;
-	border: 2px solid white;
-	margin: 5px;
+	font-size: 50;
+	font-style: italic;
 }
 .sub2 {
-	color: white;
-	background-color:black;
-	
-	width: 260px;
-	height: 20px;
-	padding: 20px;
-	margin: 5px;
+	font-style: italic;
 }
+
 .link {
 	color: #FE019A;
 }
 .hlink {
 	color: white;
+	text-decoration: none;
+}
+
+.b {
+	color: skyblue;
+}
+.p {
+	color: pink;
+}
+#nightair {
+	color: AABBCC;
+}
+#friends {
+	width: 48%;
 }
