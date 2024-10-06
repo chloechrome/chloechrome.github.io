@@ -1,6 +1,6 @@
 html {
 	width: 100%;
-	max-width: 1300px;
+	max-width: 1080px;
 }
 #row1 {
 	display: flex;
@@ -45,6 +45,7 @@ body {
 	color: white;
 	background-color:black;
 	font-family: Courier New;
+	overflow-x: hidden;
 }
 main {
 	display: flex;
