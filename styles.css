@@ -1,23 +1,23 @@
 html {
 	width: 100%;
-	max-width: 1750px;
+	max-width: 1300px;
 }
 #row1 {
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-start;
+}
+#pfp {
+	border: 2px solid white;
+	height: 100%;
+	width: 100%;
 }
 #left1 {
-	flex: 1;
-	border: 2px solid white;
-	
 	position: relative;
 	left: 10%;
 	
-	height: 220px;
-	width: 220px;
+	width: 18%;
 }
 #right1 {
-	flex: 5;
 	
 	position: relative;
 	left: 12%;
@@ -28,16 +28,15 @@ html {
 	align-items: flex-start	;
 }
 #left2 {
-	border-right: 2px solid white;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-	
 	position: relative;
 	left: 10%;
 	
-	width: 220px;
+	width: 18%;
+	border: 2px solid white;
 }
 #right2 {
+	flex: 5;
+	
 	position: relative;
 	left: 12%;
 }
@@ -62,7 +61,7 @@ footer {
 	top: 30px;
 	right: 30%;
 	
-	width: 100%;
+	width: 1240px;
 	height: 30px;
 	padding: 10px;
 	border-top: 2px solid white;
@@ -93,6 +92,6 @@ footer {
 #nightair {
 	color: AABBCC;
 }
-#friends {
+.reel {
 	width: 48%;
 }
