@@ -111,3 +111,7 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+#weezerer {
+	all: unset;
+    cursor: pointer;
+}
