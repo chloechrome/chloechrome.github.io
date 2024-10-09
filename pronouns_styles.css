@@ -1,0 +1,133 @@
+html {
+	background-color: #201B28;
+	color: white;
+	font-family: Bahnschrift Light;	
+	overflow-x: hidden;
+}
+header {
+	display: flex;
+	background-color: #1A1522;
+	border-bottom: 1px solid white;
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+main {
+	margin-top: 10%;
+}
+body {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+footer {
+	background-color: #1A1522;
+	border-top: 1px solid white;
+	padding: 5px;
+	margin-top: 10%;
+	width: 100%;
+	position: relative;
+	left: -5px;
+	top: 200px;
+}
+.header {
+	font-family: Bahnschrift;
+	font-size: 25;
+}
+#title {
+	font-family: Bahnschrift Light;
+	font-size: 35;
+	margin-top: 10px;
+}
+#email {
+	position: relative;
+	left: 70%;
+}
+#pfp {
+	width: 130px;
+}
+.icon {
+	width: 20px;
+}
+.topicon {
+	width: 24px;
+}
+#agecount {
+	display: flex;
+}
+.sect {
+	margin: 15px;
+	border: 0px solid yellow;
+}
+.fav {
+	color: #ED80BC;
+	font-size: 24;
+}
+.good {
+	color: #D199EF;
+}
+.relationship {
+	color: #EF6E6E;
+}
+.neutral{
+	color: #EFCF7F;
+}
+.online {
+	color: #94B4F1;
+}
+.bad {
+	color: #ACB4BC;
+	font-size: 13;
+}
+.verybad {
+	color: #997474;
+	font-size: 13;
+}
+#legend {
+	color: #5B5268;
+}
+.cont {
+	font-size: 18;
+}
+#cont1 {
+	margin: 5px;
+	display: flex;
+	flex-flow: row;
+}
+#pic {
+	margin: 10px;
+	flex: 1;
+}
+#desc {
+	margin-top: 10px;
+	flex: 8;
+}
+#cont2 {
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+}
+#names {
+	margin-right: 200px;
+}
+#pronouns {
+	margin-right: 200px;
+}
+#titles {
+	margin-right: 200px;
+}
+#cont3 {
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+}
+#descriptions {
+	margin-right: 200px;
+}
+#compliments {
+	margin-right: 200px;
+}
+#relationships {
+	margin-right: 200px;
+}

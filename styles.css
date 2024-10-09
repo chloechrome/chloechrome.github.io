@@ -73,40 +73,6 @@ footer {
 	border-top: 2px solid white;
 	margin: 5px;
 }
-.sub {
-	font-size: 50;
-	font-style: italic;
-}
-.sub2 {
-	font-style: italic;
-}
-
-.link {
-	color: #FE019A;
-}
-.hlink {
-	color: white;
-	text-decoration: none;
-}
-
-.b {
-	color: skyblue;
-}
-.p {
-	color: pink;
-}
-.lavender {
-	color: #D7B4F3;
-}
-.sienna {
-	color: #E97451
-}
-#nightair {
-	color: AABBCC;
-}
-.reel {
-	width: 48%;
-}
 #button {
 	display: flex;
 	justify-content: center;
