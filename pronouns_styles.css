@@ -87,8 +87,24 @@ footer {
 #legend {
 	color: #5B5268;
 }
+#cetera {
+	margin-left: 10px;
+}
+#words {
+	margin-left: 10px;
+}
+#contcontcont {
+	display: flex;
+}
+#contcont {
+	flex: 3;
+}
+#flagcont {
+	flex: 1;
+}
 .cont {
 	font-size: 18;
+	margin-left: 10px;
 }
 #cont1 {
 	margin: 5px;
@@ -109,25 +125,25 @@ footer {
 	width: 100%;
 }
 #names {
-	margin-right: 200px;
+	margin-right: 100px;
 }
 #pronouns {
-	margin-right: 200px;
-}
-#titles {
-	margin-right: 200px;
+	margin-right: 100px;
 }
 #cont3 {
 	display: flex;
 	flex-flow: row;
 	width: 100%;
 }
+#titles {
+	margin-right: 100px;
+}
 #descriptions {
-	margin-right: 200px;
+	margin-right: 100px;
 }
 #compliments {
-	margin-right: 200px;
+	margin-right: 100px;
 }
 #relationships {
-	margin-right: 200px;
+	margin-right: 100px;
 }
