@@ -119,6 +119,10 @@ footer {
 	margin-top: 10px;
 	flex: 8;
 }
+#exp {
+	font-size: 12;
+	color: gray;
+}
 #cont2 {
 	display: flex;
 	flex-flow: row;

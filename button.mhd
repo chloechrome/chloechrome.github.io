@@ -1,0 +1,5 @@
+<span style="cursor:pointer" onclick="document.getElementById('expand').hidden = !document.getElementById('expand').hidden">CLICKME</span>
+	<div id="expand">
+		anything in here is expand
+	</div>
+☾
