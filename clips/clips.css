@@ -1,0 +1,24 @@
+html {
+	width: 100%;
+	max-width: 1080px;
+}
+body {
+	color: white;
+	background-color:black;
+	font-family: Courier New;
+	overflow-x: hidden;
+}
+#content {
+	display: flex;
+	flex-flow: column;
+}
+footer {
+	position: relative;
+	top: 30px;
+	
+	width: 1750px;
+	height: 30px;
+	padding: 10px;
+	border-top: 2px solid white;
+	margin: 5px;
+}
