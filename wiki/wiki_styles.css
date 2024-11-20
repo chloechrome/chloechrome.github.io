@@ -2,7 +2,14 @@ html {
 	width: 100%;
 	max-width: 1080px;
 }
+body {
+	font-family: Bahnschrift Condensed, Arial;
+	overflow-x: hidden;
+}
 header {
+	display: flex;
+	align-content: center;
+	font-size: 25;
 	padding: 10px;
 	margin: -10px;
 	margin-bottom: 30px;
@@ -11,31 +18,79 @@ header {
 	border-bottom: 5px solid yellow;
 	width: 200%;
 }
-footer {
-	margin-top: 30%;
-	margin-left: 1%;
+#navmain {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 75%;
 }
-body {
-	font-family: Bahnschrift Condensed, Arial;
-	overflow-x: hidden;
+nav {
+	position: relative;
+	top: -30px;
+	padding-left: 10px;
+	width: 90px;
+}
+#sidebar {
+	width: 200px;
+	position: relative;
+
+	top: -60px;
+	left: -10px;
+
+	padding-left: 10px;
+	border-right: 5px solid yellow;
+	background-color: grey;
+	color: white;
+}
+#maindiv {
+	left: 21%;
+	position: absolute;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.desc {
+	margin-bottom: 20%;
 }
 main {
+}
+#catos {
 	display: flex;
-	flex-flow: row;
+	flex-direction: row;
 	justify-content: center;
+}
+footer {
+	width: 1920px;
+	position: absolute;
+	left: -10px;
+
+	margin-top: 10%;
+	margin-left: 1%;
+	padding-left: 10px;
+
+	border-top: 5px solid yellow;
+	background-color: grey;
+	color: white;
 }
 li {
 	list-style-type: none;
 }
 .category {
+	width: 300px;
 	border: 2px solid black;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: 5px;
 	padding-bottom: 10px;
 }
+#rmap {
+	margin-left: 42%;
+}
 #cathead {
 	text-decoration: underline;
+}
+.whlink {
+	color: white;
+	text-decoration: none;
 }
 .hlink {
 	color: black;
