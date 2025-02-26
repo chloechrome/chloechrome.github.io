@@ -1,0 +1,56 @@
+html {
+	font-family: 'bahnschrift condensed';
+	font-size: 20;
+}
+
+.heads {
+	font-family: 'consolas';
+	font-size: 30;
+	font-style: italic;
+}
+
+.headss {
+	font-family: 'consolas';
+	font-size: 25;
+	
+	user-select: none;
+}
+
+.headss:hover { 
+	color: #54F3FE;
+}
+
+.headsss {
+	font-family: 'bahnschrift';
+	font-size: 25;
+}
+
+.project {
+	font-family: 'bahnschrift';
+	font-size: 23;
+	font-style: italic;
+}
+
+.link{
+	color: #54F3FE;
+}
+
+.hlink{
+	color:white;
+	text-decoration: none;
+}
+
+.hlink:hover { 
+	color: #54F3FE;
+}
+
+#footer {
+	position: relative;
+	bottom: -37%;
+}
+
+.indent {
+	margin-left: 30px;
+	border-left: 5px solid white;
+	padding-left: 10px;
+}

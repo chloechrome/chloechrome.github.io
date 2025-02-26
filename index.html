@@ -1,29 +1,88 @@
-<DOCTYPE html>
+<!-DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>ChloeWeb</title>
-		<link rel="icon" href="img/favicon.ico">
-		<link rel="stylesheet" href="global.css">
-		<link rel="stylesheet" href="password_styles.css">
-		<script type="text/javascript" src="scripts/password.js"></script>
-</head>
-<body>
-    <div class="password-container">
-        <p style="font-size:25">Welcome to the ChloeWeb</p>
-		<img src="img/sub.png" alt="sub-line" width="400">
-
-        <p>Please enter the password to access:</p>
-		<span style="cursor:pointer" onclick="document.getElementById('hint').hidden = !document.getElementById('hint').hidden">(hint)</span>
-			<div hidden id="hint">
-				<b style="color:#FE019A">m</b>any birds <b style="color:#FE019A">o</b>ften eat <b style="color:#FE019A">n</b>uts by <b style="color:#FE019A">o</b>pening the shells with their specialised beaks.
+		<title>chloechrome</title>
+		<link rel="stylesheet" href="basic.css">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="icon.jpg">
+		<script src="scripts/footer.js" defer></script>
+		<script src="scripts/weezer.js"></script>
+		<script src="scripts/dark-mode.js"></script>
+	</head>
+	<body>
+		<div id="containerdiv">
+			<div class="container" id="left">
+				<h3 class="headsss"><u>Links</u></h3>
+				<div style="font-size:22">
+					<a class="hlink" href="website_wtf/index.html">Old Site</a><br>
+					<a class="hlink" href="">Providence Wiki</a><br>
+					<a class="hlink" href="">Clips</a><br>
+					<a class="hlink" href="">Updates</a><br>
+					<a class="hlink" href="https://discord.gg/6RNukesk4K" target="_blank">My Discord</a><br>
+					<a class="hlink" href="collective.html" target="_blank">The Achromatic Collective</a><br>
+					<a class="hlink" href="virgil.html">Aeneid 1, 12-123 (Virgil)</a><br><br>
+					<a href="https://kdaui.github.io/"><img width="235" src="https://kdaui.github.io/images/blinkie.gif" alt="KDAUI"></a>
+				</div>
 			</div>
-		<br>
-        <input type="password" id="password" placeholder="Enter password">
-        <button onclick="checkPassword()">Submit</button>
-        <p id="message"></p>
-		<a style="color:white" href="main.html"><img src="img/black.png"></a>
-    </div>
-</body>
+
+			<div class="container" id="central">
+				<header>
+					<div><h1 class="head1" style="font-family:bahnschrift light">chloechrome.github.io</h1></div>
+				</header>
+				<main>
+					<section id="about">
+						<h2 class="heads">About This Site</h2>
+						<p>lorem ipsum</p>
+					<section>
+					<section id="projects">
+						<h2 class="heads">My Projects</h2>
+
+						<div class="dropdown"><span class="dropdown" style="cursor:pointer;font-size:50" onclick="document.getElementById('cd').hidden = !document.getElementById('cd').hidden">
+							<h3 style="width:110" class="headss">> Coding</h3></span>
+								<div hidden id="cd">
+									<div class="indent"><h4 class="project">ChloeWeb</h4>
+									<p>This website: written in HTML, CSS and JavaScript.</p></div>
+
+									<div class="indent"><h4 class="project">Chlaui</h4>
+									<p>A collab website with <a class="link" href="https://kdaui.github.io" target="_blank">@kdaui</a>! HTML, CSS, JS. <a class="link" href="https://kdaui.github.io/collab/" target="_blank">[Link]</a></p></div>
+
+									<div class="indent"><h4 class="project">English Calculator</h4>
+									<p>A useless program that creates sentences out of random nouns, verbs and adjectives. Python. Made mostly by my friend Book. <a class="link" href="engcalc/English_Calculator.zip" download>[Download]</a></p></div>
+								</div></div>
+									
+						<div class="dropdown"><span style="cursor:pointer;font-size:50" onclick="document.getElementById('wb').hidden = !document.getElementById('wb').hidden">
+							<h3 style="width:210" class="headss">> Worldbuilding</h3></span>
+								<div hidden id="wb">
+									<div class="indent"><h4 class="project">Providence</h4>
+									<p>An alternate Earth dystopia.</p></div>
+
+									<div class="indent"><h4 class="project">The Overdue Testament</h4>
+									<p>A story about a man who sold his soul on the stock market and his talking bird.</p></div>
+								</div></div>
+					<section>
+					<section id="music">
+						<h2 class="heads">Music</h2>
+
+						<div class="dropdown"><span class="dropdown" style="cursor:pointer;font-size:50" onclick="document.getElementById('mm').hidden = !document.getElementById('mm').hidden">
+							<h3 style="width:138" class="headss">> My Music</h3></span>
+								<div class="indent" hidden id="mm">
+									<p><a class="link" href="comps.html">Compositions</a> | <a class="link" href="tabs.html">Tablature</a><p>
+									</div></div>
+					<section>
+				</main>
+			</div>
+
+			<div class="container" id="right">
+				<img style="border-radius:5px;margin-left:6px;" src="ast/pfp.png" width="225">
+				<div><h2 class="heads">About Me</h2>
+					<p>I'm <a style="color:skyblue;">tr</a><a style="color:pink;">an</a><a style="color:;">sge</a><a style="color:pink;">nd</a><a style="color:skyblue;">er</a> (skirt go spinnyy)</p>
+					<p>lorem ipsum dolor sit amet</p></div>
+			</div>
+		</div>
+		<button style="all:unset;"  id="weezerbtn" onclick="weezered();"><img width="20" src="ast/weezerbluesq.png"></img></button>
+		<audio id="weezer" src="ast/weezer.mp3" autostart="false"></audio>
+		<div id="footer"></div>
+	</body>
 </html>

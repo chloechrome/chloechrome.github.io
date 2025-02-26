@@ -1,83 +1,46 @@
 html {
-	width: 100%;
-	max-width: 1080px;
-}
-#row1 {
-	display: flex;
-	align-items: flex-start;
-}
-#pfp {
-	border: 2px solid white;
-	height: 100%;
-	width: 100%;
-}
-#self {
-	border-right: 2px solid white;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-	width: 100%;
-}
-#left1 {
-	position: relative;
-	left: 10%;
-	
-	width: 18%;
-}
-#right1 {
-	
-	position: relative;
-	left: 12%;
-}
-
-#row2 {
-	display: flex;
-	align-items: flex-start	;
-}
-#left2 {
-	position: relative;
-	left: 10%;
-	
-	width: 18%;
-	border: 2px solid white;
-}
-#right2 {
-	flex: 5;
-	
-	position: relative;
-	left: 12%;
-}
-
-body {
+	background-color: #1F1926;
 	color: white;
-	background-color:black;
-	font-family: Courier New;
-	overflow-x: hidden;
 }
-main {
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-}
-article {
-	position: relative;
-	top: 0%;
-	left: 30%;
-}
-footer {
-	position: relative;
-	top: 30px;
-	
-	width: 1750px;
-	height: 30px;
-	padding: 10px;
-	border-top: 2px solid white;
-	margin: 5px;
-}
-#button {
+
+#containerdiv {
+	margin-top: 15px;
+
 	display: flex;
 	justify-content: center;
 }
-#weezerer {
-	all: unset;
-    cursor: pointer;
+
+.container {
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+#left {
+	flex: 1;
+	width: 20%;
+	margin-right: 4%;
+}
+
+#central {
+	flex: 5;
+	width: 100%;
+}
+
+header {
+	border-bottom: 2px solid white;
+
+	display: flex;
+	justify-content: center;
+}
+#right {
+	flex: 1;
+	width: 20%;
+	margin-left: 4%;
+
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }
