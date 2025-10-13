@@ -1,0 +1,25 @@
+html 				{font-family:'typori';font-size:20;background-image:url('ast/backdrop5.png');background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;color:white;}
+
+.heads 				{font-family:'venice';font-size:50;font-style:italic;}
+.headss 			{font-family:'venice';font-size:31;user-select:none;}
+.headssl			{font-family:'venice';font-size:31;user-select:none;}
+.headss:hover	{color:#dfbdf2;}
+.headsss			{font-family: 'bahnschrift';font-size:25}
+.subhead			{font-family:Typori;font-size:31}
+
+.project 			{font-family:'bahnschrift';font-size:23;font-style:italic;}
+
+.link					{color:#dfbdf2;}
+.hlink				{color:white;text-decoration:none;}
+.hlink:hover		{color:#dfbdf2;}
+
+.indent				{margin-left: 30px;border-left:5px solid white;padding-left:10px;}
+.tab					{white-space: pre}
+
+#footer			{position:absolute;bottom:5px;}
+
+/*Fonts*/
+@font-face 		{font-family:'Dreamscar';	src:url('fnt/Dreamscar.ttf') 			format('truetype');}
+@font-face		{font-family:'Venice';		src:url('fnt/VeniceClassic.ttf') 		format('truetype');}
+@font-face 		{font-family:'Typori';			src:url('fnt/Typori-Regular.ttf')		format('truetype');}
+@font-face 		{font-family:'Metro';			src:url('fnt/Metro.otf') 					format('opentype');}
