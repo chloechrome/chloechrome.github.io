@@ -1,10 +1,11 @@
-html 				{font-family:'typori';font-size:20;background-image:url('ast/backdrop6.png');background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;color:white;}
+html 				{font-family:'typori';font-size:20;background-image:url('ast/backdrop6.png');background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;color:white;
+						scrollbar-color:#706153 black;scrollbar-width:thin;}
+						
 body					{cursor:none;cursor: url("ast/cursor.png"), auto;}
 
-.heads 				{font-family:'venice';font-size:50;font-style:italic;}
-.headss 			{font-family:'venice';font-size:31;user-select:none;}
-.headssl			{font-family
-						:'venice';font-size:31;user-select:none;}
+.heads 				{font-family:'Times New Roman';font-size:50;font-style:italic;}
+.headss 			{font-family:'Times New Roman';font-size:26;user-select:none;}
+.headssl			{font-family:'Times New Roman';font-size:31;user-select:none;}
 .headss:hover	{color:#dfbdf2;}
 .headsss			{font-family: 'bahnschrift';font-size:25}
 .subhead			{font-family:Typori;font-size:31}
@@ -21,7 +22,7 @@ body					{cursor:none;cursor: url("ast/cursor.png"), auto;}
 #footer			{position:fixed;bottom:0%;}
 
 .fade				{animation: fadeIn 3s}
-@keyframes fadeIn {0% { opacity: 0;color:cyan; } 100% { opacity: 1;color:white; }}
+@keyframes fadeIn {0% { opacity: 0;color:#F90010; } 100% { opacity: 1;color:white; }}
 
 
 /*Fonts*/
@@ -29,3 +30,8 @@ body					{cursor:none;cursor: url("ast/cursor.png"), auto;}
 @font-face		{font-family:'Venice';		src:url('fnt/VeniceClassic.ttf') 		format('truetype');}
 @font-face 		{font-family:'Typori';			src:url('fnt/Typori-Regular.ttf')		format('truetype');}
 @font-face 		{font-family:'Metro';			src:url('fnt/Metro.otf') 					format('opentype');}
+
+/* Style Guide */
+.zxzxx{
+Lavender: #dfbdf2;
+Red: #F90010}
