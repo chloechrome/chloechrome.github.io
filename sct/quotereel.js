@@ -5,6 +5,10 @@ var q= ['<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)'
 			'<i>Living another day in disguise.</i> - Avenged Sevenfold, MIA (City of Evil)',
 			
 			"<i>Don't try to understand... knowing you, I'm probably wrong.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
+			"<i>Loneliness is not only felt by fools.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
+			"<i>Time has a way of taking time.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
+			
+			"<i>This is not up to you.</i> - Sum 41, No Reason (Chuck)",
 			
 			"<i>From the halls of the Vatican to the Runways of Truth, we are there. At the place called Climax, and the time called NOW. When it's done, let the gods sort it out!</i> - Postal Dude, POSTAL (Airforce Base)",
 			
