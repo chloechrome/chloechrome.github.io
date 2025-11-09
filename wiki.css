@@ -1,0 +1,10 @@
+html					{background-color:#DDDDDD;overflow-y:scroll;scrollbar-color:yellow #444444;scrollbar-width:thin;}
+
+#top				{display:flex;align-content:center;position:fixed;height:5%;width:100%;margin:-8;padding-top:8;padding-left:8;background-color:grey;color:yellow}
+#body				{display:flex;}
+.component		{flex:1}
+#centre			{height:100%;flex:5;margin-right:5%;margin-top:5%;padding:10px;border:2px solid #444444;border-radius:7px;background-color:white}
+#navcolumn		{display:flex;flex-direction:column;margin-top:90%;}
+.internav			{margin:10%;margin-right:15%;padding:5%;border-left:3px solid white;background-color:#808080;color:white}
+
+.link					{color:#2255AA}
