@@ -1,0 +1,120 @@
+<html>
+<head><link rel="stylesheet" href="synth.css"></head>
+<body>
+<div style='display:flex;justify-content:center;'>
+<div style='flex:1;'></div>
+
+<div id='cent' style='flex:2'>
+	<h1>Synthesis & Sampling - “Learn from the Pros”</h1>
+	<h2>Synthesis</h2>
+	<br><br><br><br><h3>1. Components</h3>
+	<b style='font-size:26;'>Oscillators</b><br>
+	<p>Oscillators are the waveform that creates sound.</p>
+        	<b style='font-size:20;'>Wave Shapes:</b><br>
+	<p>The greatest difference between oscillators is their wave shape. The smoothness of the wave determines the harshness of the sound produced</p>
+
+	<div style='border-left:4px solid white;padding-left:20px;'><div style='display:flex;'><div style='flex:2;'><li> Sine - The simplest wave shape; produces a soft, round tone.</li> <audio style='width:150' controls src="snd/tone_sine.mp3"></audio></div><div style='flex:1;'><img width=400 src='ast/sin.png'></div></div>
+	<div style='display:flex;'><div style='flex:2;'><li>Saw/Sawtooth - Produces a harsh, buzzy sound most often used in lead synths.</li> <audio style='width:150' controls src="snd/tone_saw.mp3"></audio></div><div style='flex:1;'><img width=400 src='ast/saw.png'></div></div>
+	<div style='display:flex;'><div style='flex:2;'><li>Square - Creates a piercing noise used in both lead and bass synths.</li> <audio style='width:150' controls src="snd/tone_square.mp3"></audio></div><div style='flex:1;'><img width=400 src='ast/sqr.png'></div></div>
+	<div style='display:flex;'><div style='flex:2;'><li>Triangle - Produces a tone somewhere between that of a sine wave and a saw wave.</li> <audio style='width:150' controls src="snd/tone_tri.mp3"></audio></div><div style='flex:1;'><img width=400 src='ast/tri.png'></div></div>
+	<div style='display:flex;'><div style='flex:2;'><li>Noise - Mainly used as ambience; creates a chaotic wave shape that produces static.</li> <audio style='width:150' controls src="snd/noise.mp3"></audio></div><div style='flex:1;'><img width=400 src='ast/noise.png'></div></div></div>
+
+	<br><b style='font-size:26;'>Low Frequency Oscillators, LFO:</b><br>
+	<p>Produce a constant, unheard tone (below human range of hearing) that can be used to modulate certain parameters. The benefit of using an LFO over an envelope is that an LFO is infinitely repeating whist it has a frequency greater than 0.</p>
+	<b style='font-size:20;'>Parameters:</b><br>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Wave Shape: LFOs can use any of the above shapes.</li><br>
+	<li>Frequency: Controls how quickly the LFO moved through the whole range of its modulation.</li><br></div>
+
+	<br><br><br><br><b style='font-size:26;'>Filters</b><br>
+	<p>Filter out certain frequencies depending on where the cutoff frequency parameter is set. Different filter shapes provide different ranges.</p>
+	<b style='font-size:20;'>Filter Shapes:</b><br>
+	<p>Most commonly used are high pass and low pass filters. These remove frequencies below and above the cutoff point, respectively; this allows every other frequency to pass through and can be used to remove undesirable tones.
+	   Filters can be used to remove (or exclusively allow) frequencies within any determinant range.</p>
+	<b style='font-size:20;'>Filter Types:</b><br>
+	<p>In addition to its shape, the type of filter used affects the way it changes the sound; clean, OSR, MS2, SMP and PRD all have slight differences including the steepness of the filter's curve.
+           All except clean allow drive to be used, adding distortion without using effects.</p>
+	
+	<br><br><br><br><b style='font-size:26;'>Envelopes</b><br>
+	<p>Envelopes modulate parameters over time.</p>
+	<b style='font-size:20;'>Parameters:</b><br>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Attack: how long the selected parameter takes to reach peak modulation.</li><br>
+	<li>Decay: the time it takes for the envelope to reach the sustain level after the attack finishes.</li><br>
+	<li>Sustain: the level of modulation that the selected parameter is held at while the key remains pressed.</li><br>
+	<li>Release: how long the sound takes to stop playing when the key is no longer pressed.</li></div>
+
+
+	<br><br><br><br><br><br><h3>2. Ableton Synthesisers</h3>
+		<h3>Analog</h3>
+	<p>Synthesis Type | Subtractive:<br> A type of synthesis that starts with an VCO (oscillator), and then gradually ‘subtracts’ elements from the sound through components like Filters, Amp envelopes, and modulation. Subtractive synthsis is useful to create sounds that are simple and easy to adjust, without the complexity of other synthesis types.</p>
+	<br><br><b style='font-size:20;'>Oscillator:</b><br>
+	<p>The sound generating source for the synth. This emulates the VCOs typically found on analogue subtractive synthesizers.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Wave shape: this sets the tone/timbre of the synthesizer, with four shapes typically available, listed above.</li><br>
+	<li>Tuning: This affects the pitch of the oscillator, with options for:<br>Octave: To create powerful, ‘stacked’ sounds;<br>Semitones: To create ‘chord’ sounds using specific intervals;<br>Cents: to slightly detune the oscillator, which can emulate the sound of real analogue synths, or create distressed sounds if turned up too much.</li></div>
+
+	<br><br><b style='font-size:20;'>Filter:</b><br>
+	<p>Analog has two filters which can be applied in series or in parallel and can have different filter types. The Fil1 and Fil2 switches can be used to enable and disable either filter at will.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Freq: sets the cutoff frequency.</li><br>
+	<li>Type: different filter types have slightly different shapes and can be used to add drive.</li></div>
+
+	<br><br><b style='font-size:20;'>Envelope:</b><br>
+	<p>Analog has a basic ADSR (attack, decay, sustain, release) envelope design as discussed above, however it has seperate envelopes for each of its two filters.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Linear/Exponential: Controls whether the filter line is straight or curved.</li></div>
+
+
+
+ 	<br><br><br><br><h3>Wavetable</h3>
+	<p>Synthesis Type | Wavetable: A type of synthesis that starts with a VCO (oscillator), then adjusts its shape by changing its position on a wavetable. This type is useful for creating dynamic leads and other evolving sounds.</p>
+	<br><br><b style='font-size:20;'>Wavetable:</b><br>
+	<p>Provides a set of wave shapes for the oscillator(s) to move through.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Position: controls which part of the wavetable is being used to determine the oscillator’s wave shape. Can be modulated.</li><br>
+	<li>Table: changes the wavetable used.</li></div>
+
+	<br><br><b style='font-size:20;'>Matrix:</b><br>
+	<p>Allows for intuitive mapping of parameters to different modulators. Parameters to be modulated are selected on the left and appear when clicked on elsewhere in the menu. Mod sources are shown at the top.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Amp: Modulates volume.</li><br>
+	<li>Env(2/3): Modulates the selected parameter using an envelope.</li><br>
+	<li>LFO(1/2): Modulates the selected parameter using a Low Frequency Oscillator.</li><br>
+	<span>There is also a MIDI matrix which modulates based on variables, such as velocity and key pressed, or at random.</span></div>
+
+	<br><br><b style='font-size:20;'>Filter:</b><br>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<span>The wavetable filters can be routed into each other, in series or parallel, or filter 1 and 2 can be split and affect oscillator 1 and 2 respectively.</span></div>
+
+	<br><br><b style='font-size:20'>Voicing:</b><br>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<span>The wavetable synth can be polyphonic or monophonic. When poly, the number to the right controls the number of different sounds that the synth can produce at one time (i.e. the number of keys that can be pressed at once to produce sound). <br><br>Unison adds depth to the sound by producing slight variation using one of a number of algorithms.<br><br>When mono, glide can be utilised to smoothly transition between notes. The slider controls how many (m)s it takes to move from one note to the next</span></div>
+
+
+
+
+
+
+	<br><br><br><br><h3>Operator</h3>
+	<p>Synthesis Type | FM (Frequency Modulation): Routes different modulators(operators) into one another to create complex wave shapes with a wide range of harmonics.</p>
+	<br><br><b style='font-size:20;'>Operators:</b><br>
+	<p>A set of four oscillators that modulate each other to produce a complex final wave.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Coarse: transposes the wave by semitones.</li><br>
+	<li>Fine: transposes the wave by cents.</li><br>
+	<li>Fixed: changes the course/fine controls into a fixed frequency control.</li><br>
+	<li>Level: controls how much each operator modulates its respective wave.</li><br>
+	<li>Routing - allows the operators to be reorganised, meaning that they will modulate each other in a different order.</li></div>
+
+	<br><br><p>Additional Synthesis Type | Additive: changes sound by adding harmonics above the fundamental note. Operator can be used as an additive synth by only using one operator with the wave shape set to 'User'. Additive synthesis can create a wide variety of unique sounds inaccessible to subtractive synthesis; often additive synthesis produces organ-like sounds.</p>
+
+	<br><br><br><br><h3>Granulator III (External)</h3>
+	<p>Synthesis Type | Granulative: manipulates an audio sample in different ways to create interesting sounds.</p>
+
+
+
+
+</div><div style='flex:1;'></div></div>
+</body>
+</html>
