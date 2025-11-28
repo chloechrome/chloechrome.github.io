@@ -8,7 +8,7 @@
 	<h1>Synthesis & Sampling - “Learn from the Pros”</h1>
 	<h2>Synthesis</h2>
 	<br><br><br><br><h3>1. Components</h3>
-	<b style='font-size:26;'>Oscillators</b><br>
+	<div><b style='font-size:26;'>Oscillators</b><br>
 	<p>Oscillators are the waveform that creates sound.</p>
         	<b style='font-size:20;'>Wave Shapes:</b><br>
 	<p>The greatest difference between oscillators is their wave shape. The smoothness of the wave determines the harshness of the sound produced</p>
@@ -17,81 +17,83 @@
 	<div style='display:flex;'><div style='flex:2;'><li>Saw/Sawtooth - Produces a harsh, buzzy sound most often used in lead synths.</li> <audio style='width:150' controls src="snd/tone_saw.mp3"></audio></div><div style='flex:1;margin-left:4vw'><img width=350 src='ast/saw.png'></div></div>
 	<div style='display:flex;'><div style='flex:2;'><li>Square - Creates a piercing noise used in both lead and bass synths.</li> <audio style='width:150' controls src="snd/tone_square.mp3"></audio></div><div style='flex:1;margin-left:4vw'><img width=350 src='ast/sqr.png'></div></div>
 	<div style='display:flex;'><div style='flex:2;'><li>Triangle - Produces a tone somewhere between that of a sine wave and a saw wave.</li> <audio style='width:150' controls src="snd/tone_tri.mp3"></audio></div><div style='flex:1;margin-left:4vw'><img width=350 src='ast/tri.png'></div></div>
-	<div style='display:flex;'><div style='flex:2;'><li>Noise - Mainly used as ambience; creates a chaotic wave shape that produces static.</li> <audio style='width:150' controls src="snd/noise.mp3"></audio></div><div style='flex:1;margin-left:4vw'><img width=350 src='ast/noise.png'></div></div></div>
-
-	<br><b style='font-size:26;'>Low Frequency Oscillators, LFO:</b><br>
-	<p>Produce a constant, unheard tone (below human range of hearing) that can be used to modulate certain parameters. The benefit of using an LFO over an envelope is that an LFO is infinitely repeating whist it has a frequency greater than 0.</p>
-	<b style='font-size:20;'>Parameters:</b><br>
+	<div style='display:flex;'><div style='flex:2;'><li>Noise - Mainly used as ambience; creates a chaotic wave shape that produces static.</li> <audio style='width:150' controls src="snd/noise.mp3"></audio></div><div style='flex:1;margin-left:4vw'><img width=350 src='ast/noise.png'></div></div></div></div>
+	
+	<div><br><b style='font-size:26;'>Low Frequency Oscillators, LFO:</b><br>
+	<p>Produce a constant, unheard tone (below human range of hearing) that can be used to modulate certain parameters. The benefit of using an LFO over an envelope is that an LFO is infinitely repeating whilst it has a frequency greater than 0Hz.</p>
+	<p><b style='font-size:20;'>Parameters:</p></b><br>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Wave Shape: LFOs can use any of the above shapes.</li><br>
-	<li>Frequency: Controls how quickly the LFO moved through the whole range of its modulation.</li><br></div>
+	<li>Frequency: Controls how quickly the LFO moved through the whole range of its modulation.</li><br></div></div>
 
-	<br><br><br><br><b style='font-size:26;'>Filters</b><br>
+	<div><br><br><br><br><b style='font-size:26;'>Filters</b><br>
 	<p>Filter out certain frequencies depending on where the cutoff frequency parameter is set. Different filter shapes provide different ranges.</p>
 	<b style='font-size:20;'>Filter Shapes:</b><br>
 	<p>Most commonly used are high pass and low pass filters. These remove frequencies below and above the cutoff point, respectively; this allows every other frequency to pass through and can be used to remove undesirable tones.
 	   Filters can be used to remove (or exclusively allow) frequencies within any determinant range.</p>
 	<b style='font-size:20;'>Filter Types:</b><br>
 	<p>In addition to its shape, the type of filter used affects the way it changes the sound; clean, OSR, MS2, SMP and PRD all have slight differences including the steepness of the filter's curve.
-           All except clean allow drive to be used, adding distortion without using effects.</p>
+           All except clean allow drive to be used, adding distortion without using effects.</p></div>
 	
-	<br><br><br><br><b style='font-size:26;'>Envelopes</b><br>
+	<div><br><br><br><br><b style='font-size:26;'>Envelopes</b><br>
 	<p>Envelopes modulate parameters over time.</p>
-	<b style='font-size:20;'>Parameters:</b><br>
+	<p><b style='font-size:20;'>Parameters:</p></b><br>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Attack: how long the selected parameter takes to reach peak modulation.</li><br>
 	<li>Decay: the time it takes for the envelope to reach the sustain level after the attack finishes.</li><br>
 	<li>Sustain: the level of modulation that the selected parameter is held at while the key remains pressed.</li><br>
-	<li>Release: how long the sound takes to stop playing when the key is no longer pressed.</li></div>
+	<li>Release: how long the sound takes to stop playing when the key is no longer pressed.</li></div></div>
 
 
-	<br><br><br><br><br><br><h3>2. Ableton Synthesisers</h3>
+	<div><br><br><br><br><br><br><h3>2. Ableton Synthesisers</h3>
 		<h3>Analog</h3>
 	<p>Synthesis Type | Subtractive:<br> A type of synthesis that starts with an VCO (oscillator), and then gradually ‘subtracts’ elements from the sound through components like Filters, Amp envelopes, and modulation. Subtractive synthsis is useful to create sounds that are simple and easy to adjust, without the complexity of other synthesis types.</p>
 	<br><br><b style='font-size:20;'>Oscillator:</b><br>
 	<p>The sound generating source for the synth. This emulates the VCOs typically found on analogue subtractive synthesizers.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Wave shape: this sets the tone/timbre of the synthesizer, with four shapes typically available, listed above.</li><br>
-	<div style='display:flex;'><div style='flex:4;'><li>Tuning: This affects the pitch of the oscillator, with options for :<br><br>Octave: To create powerful, "stacked" sounds;<br>Semitones: To create "chord" sounds using specific intervals;<br>Cents: to slightly detune the oscillator, which can emulate the sound of real analogue synths, or create distressed sounds if turned up too much.</li></li></div><div style='flex:1;'><img width=200 src='ast/analog_tuning.png'></div></div></div>
+	<div style='display:flex;'><div style='flex:4;'><li>Tuning: This affects the pitch of the oscillator, with options for :<br><br>Octave: To create powerful, "stacked" sounds;<br>Semitones: To create "chord" sounds using specific intervals;<br>Cents: to slightly detune the oscillator, which can emulate the sound of real analogue synths, or create distressed sounds if turned up too much.</li></li></div><div style='flex:1;'><img width=200 src='ast/analog_tuning.png'></div></div></div></div>
 	
-	<br><br><b style='font-size:20;'>Filter:</b><br>
+	<div><br><br><b style='font-size:20;'>Filter:</b><br>
 	<p>Analog has two filters which can be applied in series or in parallel and can have different filter types. The Fil1 and Fil2 switches can be used to enable and disable either filter at will.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<div style='display:flex;'><div style='flex:4;'><li>Freq: sets the cutoff frequency.</li><br>
-	<li>Type: different filter types have slightly different shapes and can be used to add drive.</li></div><div style='flex:1;margin-left:2vw'><img width=200 src='ast/analog_filter.png'></div></div></div>
+	<li>Type: different filter types have slightly different shapes and can be used to add drive.</li></div><div style='flex:1;margin-left:2vw'><img width=200 src='ast/analog_filter.png'></div></div></div></div>
 
-	<br><br><b style='font-size:20;'>Envelope:</b><br>
+	<div><br><br><b style='font-size:20;'>Envelope:</b><br>
 	<p>Analog has a basic ADSR (attack, decay, sustain, release) envelope design as discussed above, however it has seperate envelopes for each of its two filters.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<div style='display:flex;'><div style='flex:2;'><li>Linear/Exponential: Controls whether the filter line is straight or curved.</li>
-	<li>Free: the envelope will move instantly from decay to release, bypassing sustain; this produces notes of equal duration, no matter how long the key is held.</li></div><div style='flex:1;'><img width=300 src='ast/envelope.png'></div></div></div>
+	<li>Free: the envelope will move instantly from decay to release, bypassing sustain; this produces notes of equal duration, no matter how long the key is held.</li></div><div style='flex:1;'><img width=300 src='ast/envelope.png'></div></div></div></div>
 
 
 
- 	<br><br><br><br><h3>Wavetable</h3>
-	<p>Synthesis Type | Wavetable: A type of synthesis that starts with a VCO (oscillator), then adjusts its shape by changing its position on a wavetable. This type is useful for creating dynamic leads and other evolving sounds.</p>
+ 	<div><br><br><br><br><h3>Wavetable</h3>
+	<p>Synthesis Type | Wavetable: A type of synthesis that starts with a VCO (oscillator), then adjusts its shape by changing its position on a wavetable. This type is useful for creating dynamic leads and other evolving sounds as moving through the wavetable can vastly change the sound produced.</p>
+	</i>Modulating through the basic shapes using a wavetable:</i><audio style='width:200' controls src="snd/wavetable.wav"></audio>
 	<br><br><b style='font-size:20;'>Wavetable:</b><br>
 	<p>Provides a set of wave shapes for the oscillator(s) to move through.</p>
-	<div style='border-left:4px solid white;padding-left:20px;'>
+	<div style='display:flex'><div style='flex:2'><div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Position: controls which part of the wavetable is being used to determine the oscillator’s wave shape. Can be modulated.</li><br>
-	<li>Table: changes the wavetable used.</li></div>
+	<li>Table: changes the wavetable used.</li></div></div>
+	<div><img width=200 src='ast/wavetable.png'></div></div></div>
 
-	<br><br><b style='font-size:20;'>Matrix:</b><br>
+	<div><br><br><b style='font-size:20;'>Matrix:</b><br>
 	<p>Allows for intuitive mapping of parameters to different modulators. Parameters to be modulated are selected on the left and appear when clicked on elsewhere in the menu. Mod sources are shown at the top.</p>
-	<div style='border-left:4px solid white;padding-left:20px;'>
+	<div style='display:flex'><div style='flex:2'><div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Amp: Modulates volume.</li><br>
 	<li>Env(2/3): Modulates the selected parameter using an envelope.</li><br>
 	<li>LFO(1/2): Modulates the selected parameter using a Low Frequency Oscillator.</li><br>
-	<span>There is also a MIDI matrix which modulates based on variables, such as velocity and key pressed, or at random.</span></div>
+	<span>There is also a MIDI matrix which modulates based on variables, such as velocity and key pressed, or at random.</span></div></div><div style='flex:1'><p><img width=200 src='ast/wavetable_matrix.png'></p><img width=200 src='ast/wavetable_matrix_midi.png'></div></div></div>
 
-	<br><br><b style='font-size:20;'>Filter:</b><br>
+	<div><br><br><b style='font-size:20;'>Filter:</b><br>
 	<div style='border-left:4px solid white;padding-left:20px;'>
-	<span>The wavetable filters can be routed into each other, in series or parallel, or filter 1 and 2 can be split and affect oscillator 1 and 2 respectively.</span></div>
+	<p>The wavetable filters can be routed into each other, in series or parallel, or filter 1 and 2 can be split and affect oscillator 1 and 2 respectively. Each filter can have a different type selected.</p></div><div style='position:relative;left:12vw;'><img width=300 src='ast/wavetable_filter.png'></div></div>
 
-	<br><br><b style='font-size:20'>Voicing:</b><br>
+	<div><br><br><b style='font-size:20'>Voicing:</b><br>
 	<div style='border-left:4px solid white;padding-left:20px;'>
-	<span>The wavetable synth can be polyphonic or monophonic. When poly, the number to the right controls the number of different sounds that the synth can produce at one time (i.e. the number of keys that can be pressed at once to produce sound). <br><br>Unison adds depth to the sound by producing slight variation using one of a number of algorithms.<br><br>When mono, glide can be utilised to smoothly transition between notes. The slider controls how many (m)s it takes to move from one note to the next</span></div>
-
+	<div style='display:flex'><div style='flex:8'><p>The wavetable synth can be polyphonic or monophonic. When poly, the number to the right controls the number of different sounds that the synth can produce at one time (i.e. the number of keys that can be pressed at once to produce sound). <br><br>Unison adds depth to the sound by producing slight variation using one of a number of algorithms.<br><br>When mono, glide can be utilised to smoothly transition between notes. The slider controls how many (m)s it takes to move from one note to the next</p>
+	</div><div style='flex:1;margin-left:2vw;align-content:center;'><img height=200 src='ast/wavetable_voices.png'></div></div></div></div>
 
 
 
@@ -112,21 +114,21 @@
 
 	<br><br><br><br><h3>Granulator III (External)</h3>
 	<p>Synthesis Type | Granulative: manipulates an audio sample in different ways to create interesting sounds. Has certain crossovers with sampling techniques and is especially useful for droning ambience using the randomness of reversed grains or for layered textural sounds using a high density parameter.</p>
-	<br><br><b style='font-size:20;'>Grain:</b><br>
+	<div><br><br><b style='font-size:20;'>Grain:</b><br>
 	<p>The section of audio that gets looped with each keypress.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Position: determines which section of the sample is used as a grain.</li><br>
 	<li>Scan: plays audio past the end of the grain.</li><br>
 	<li>Grain size: controls the length of the grain, between 2ms and 2s.</li><br>
 	<li>Shape: controls how smoothly instances of the grain fade into each other.</li><br>
-	<li>Variation: - allows the grain position to be randomised within set bounds outside the actual position.</li></div>
+	<li>Variation: - allows the grain position to be randomised within set bounds outside the actual position.</li></div></div>
 
-	<br><br><b style='font-size:20;'>Mode:</b><br>
+	<div><br><br><b style='font-size:20;'>Mode:</b><br>
 	<p>Granulator III has three modes which change how the grains play back.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Classic: plays the grain when the key is pressed.</li><br>
 	<li>Loop: enables the "Reverse" parameter, which is set as a percentage chance x%. This causes x% of instances of the grain to play backwards.</li><br>
-	<li>Cloud: enables the "Density" parameter, which is set as an integer n (1-20). This allows n grains to play at once, per voice.</li></div>
+	<li>Cloud: enables the "Density" parameter, which is set as an integer n (1-20). This allows n grains to play at once, per voice.</li></div></div>
 
 
 
@@ -134,25 +136,40 @@
 
 	<br><br><br><br><h2>Sampling</h2>
 	<br><br><br><br><h3>1. Fundamentals</h3>
-	<p>In essence, sampling is taking a section of audio from one place and using it in another. This is perhaps most commonly done with drum breaks, in genres such as hip-hop. Another common use is vocal sampling. Sampling is a useful technique because it can lighten the creative load on the musician and/or provide things for the song that the musician is unable to create themselves.</p>
+	<p>In essence, sampling is taking a section of audio from one place and using it in another. This is perhaps most commonly done with drum breaks, in genres such as hip-hop; a famous example of a drum sample is the Amen Break, used in thousands of songs but originally from <a style='color:cyan' href='https://youtu.be/HrrWhCbZAyY&t=84' target='_blank'>Amen Brother</a> (YouTube) by The Winstons. The sample appears at 1:24. Another common use is vocal sampling. Sampling is a useful technique because it can lighten the creative load on the musician and/or provide things for the song that the musician is unable to create themselves.</p>
 
 	<br><br><br><br><br><br><h3>2. Ableton Samplers</h3>
 		<h3>Simpler</h3>
-	<p>Accepts a single sample and pitches it depending on the key pressed..</p>
-	<br><br><b style='font-size:20;'>Mode:</b><br>
+	<p>Accepts a single sample and pitches it depending on the key pressed.</p>
+	<div><br><br><b style='font-size:20;'>Mode:</b><br>
 	<p>Changes the manner in which the sample is played back when the key is pressed.</p>
 	<div style='border-left:4px solid white;padding-left:20px;'>
 	<li>Classic: when the key is being held down, the sample will play. When the key is released, the sound will stop.</li><br>
 	<li>1-Shot: when the key is pressed the sample will play from start to finish even if the key is released.</li><br>
 	<div style='display:flex;'><div style='flex:2;'><li>Slice: divides the sample into short sections which are each mapped to an individual key. Playing a note on the keyboard will play the corresponding slice.</div><div style='flex:1;margin-left:2vw'><img width=300 src='ast/simpler_modes.png'></div></div>
-	<div style='display:flex;'><div style='flex:2;'><p>The audio can be sliced by: transient; the beat, best used when the audio is already aligned to the BPM of the project; region, dividing the audio into even slices; or manual, allowing the user to cut up the audio in specific places which is useful for obtaining short drum samples.</p></div><div style='flex:1;margin-left:2vw'><img width=100 src='ast/simpler_slice.png'></div></div></div>
+	<div style='display:flex;'><div style='flex:2;'><p>The audio can be sliced by: transient; the beat, best used when the audio is already aligned to the BPM of the project; region, dividing the audio into even slices; or manual, allowing the user to cut up the audio in specific places which is useful for obtaining short drum samples.</p></div><div style='flex:1;margin-left:2vw'><img width=100 src='ast/simpler_slice.png'></div></div></div></div>
 
+	<div><br><br><b style='font-size:20;'>Filter:</b><br>
+	<div style='display:flex;'><div style='flex:8;'><p>Simpler has a basic filter with simple shapes and the standard types discussed above.</p></div>
+	<div style='flex:1;'><img src='ast/simpler_filter.png'></div>
+	<div style='flex:1;'><img src='ast/simpler_filtypes.png'></div></div></div>
+	
+	<h3>Sampler</h3>
+	<p>A versatile multi-sampler that takes a multitude of samples at the same time, which can be mapped to different keys as needed..</p>
+	<div><br><br><b style='font-size:20;'>Mode:</b><br>
+	<p>Changes the manner in which the sample is played back when the key is pressed.</p>
+	<div style='border-left:4px solid white;padding-left:20px;'>
+	<li>Classic: when the key is being held down, the sample will play. When the key is released, the sound will stop.</li><br>
+	<li>1-Shot: when the key is pressed the sample will play from start to finish even if the key is released.</li><br>
+	<div style='display:flex;'><div style='flex:2;'><li>Slice: divides the sample into short sections which are each mapped to an individual key. Playing a note on the keyboard will play the corresponding slice.</div><div style='flex:1;margin-left:2vw'><img width=300 src='ast/simpler_modes.png'></div></div>
+	<div style='display:flex;'><div style='flex:2;'><p>The audio can be sliced by: transient; the beat, best used when the audio is already aligned to the BPM of the project; region, dividing the audio into even slices; or manual, allowing the user to cut up the audio in specific places which is useful for obtaining short drum samples.</p></div><div style='flex:1;margin-left:2vw'><img width=100 src='ast/simpler_slice.png'></div></div></div></div>
+
+	
 	<br><br><br><br><h2>Digital Audio Considerations</h2>
 	<br><br><br><br><h3>1. Sample Rate</h3>
 	<p>Analogue signals ae continuous; to digitalise such a signal requires the taking of a multitude of amplitude readings (samples). The samples can then be joined together to recreate the original signal. Sample rate is simple the number of samples taken per second and is measured in Hertz (Hz). A higher sample rate will provide a more accurate recreation of the original signal at the price of requiring more storage to store the extra data.</p>
-	<br><br><b style='font-size:20;'>Nyquist Theorem</b><br>
-	The Nyquist-Shannon sampling theorem states that to produce an accurate recreation of a signal, the sampling rate must be at least double the frequency of the signal at its greatest point. The standard minimum sampling rate for audio is 44.1 kHz.
-
+	<br><br><b style='font-size:20;'>Nyquist Theorem</b>
+	<p>The Nyquist-Shannon sampling theorem states that to produce an accurate recreation of a signal, the sampling rate must be at least double the frequency of the signal at its greatest point. The standard minimum sampling rate for audio is 44.1 kHz.</p>
 	<br><br><br><br><h3>2. Bit Depth</h3>
 	<p>Bit depth is the accuracy to which a continuous analogue signal from an electric current is rounded, in order to be stored as a digital signal. A higher bit depth will be more accurate but will require more storage for the extra data.</p>
 	
