@@ -1,15 +1,13 @@
-var q= ['<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)',
+var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)',
 			"<i>First, I'll deal with that fucking Façade.</i> - Es, Alter Ego (ID)",
-			"<i>See, there's more than one ending to the story.</i> - Es. Alter Ego (AE)",
+			"<i>See, there's more than one ending to the story.</i> - Es, Alter Ego (AE)",
 
 			'<i>Living another day in disguise.</i> - Avenged Sevenfold, MIA (City of Evil)',
 			
 			"<i>Don't try to understand... knowing you, I'm probably wrong.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
 			"<i>Loneliness is not only felt by fools.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
 			"<i>Time has a way of taking time.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
-			
-			"<i>This is not up to you.</i> - Sum 41, No Reason (Chuck)",
-			
+
 			"<i>From the halls of the Vatican to the Runways of Truth, we are there. At the place called Climax, and the time called NOW. When it's done, let the gods sort it out!</i> - Postal Dude, POSTAL (Airforce Base)",
 			
 			'<i>Try to get a better understanding of things before you make your judgement.</i> - Khan, Metro 2033',
@@ -27,7 +25,11 @@ var q= ['<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)'
 			"<i>I wish I could stay in this moment forever. (...) But then it wouldn't be a moment.</i> - Max Caulfield, Life is Strange",
 			"<i>I'd like to drop a bomb on Arcadia Bay and turn it to fucking glass.</i> - Chloe Price, Life is Strange",
 			"<i> I'm in a nightmare and I can't wake up... unless I put myself to sleep.</i> - Kate Marsh, Life is Strange",
-			"<i>Even angels need angels, Max.</i> - Kate Marsh, Life is Strange"];
+			"<i>Even angels need angels, Max.</i> - Kate Marsh, Life is Strange",
+			
+			"<i>What I achieve is not the product of an act of my will but of my will’s surrender. I begin because I don’t have the strength to think; I finish because I don’t have the courage to quit.</i> - Fernando Pessoa, The Book of Disquiet",
+			
+			"<i>Art. Our holy saving grace.</i>"];
 
 const quoteselect = q[Math.floor(Math.random() * q.length)];
 
@@ -36,5 +38,4 @@ function quoteReel() {
     quoteDiv.innerHTML = `${quoteselect}`;
 }
 
-quoteReel();
-setInterval(quoteReel, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
+quoteReel()
