@@ -4,6 +4,8 @@ var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)
 
 			'<i>Living another day in disguise.</i> - Avenged Sevenfold, MIA (City of Evil)',
 			
+			"<i>Don't you think I know what I'm doing? Don't tell me that it's doing me wrong.</i> - System Of A Down, Snowblind (Vicinity of Obscenity/Lonely Day EP)",
+			
 			"<i>Don't try to understand... knowing you, I'm probably wrong.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
 			"<i>Loneliness is not only felt by fools.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
 			"<i>Time has a way of taking time.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
@@ -29,7 +31,8 @@ var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)
 			
 			"<i>What I achieve is not the product of an act of my will but of my will’s surrender. I begin because I don’t have the strength to think; I finish because I don’t have the courage to quit.</i> - Fernando Pessoa, The Book of Disquiet",
 			
-			"<i>Art. Our holy saving grace.</i>"];
+			"<i>Art. Our holy saving grace.</i>",
+			"<i>Patience will save us.</i>"];
 
 const quoteselect = q[Math.floor(Math.random() * q.length)];
 
