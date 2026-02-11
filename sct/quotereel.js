@@ -32,7 +32,8 @@ var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)
 			"<i>What I achieve is not the product of an act of my will but of my will’s surrender. I begin because I don’t have the strength to think; I finish because I don’t have the courage to quit.</i> - Fernando Pessoa, The Book of Disquiet",
 			
 			"<i>Art. Our holy saving grace.</i>",
-			"<i>Patience will save us.</i>"];
+			"<i>Patience will save us.</i>",
+			"<i>The better it gets, the worse it gets.</i>"];
 
 const quoteselect = q[Math.floor(Math.random() * q.length)];
 
