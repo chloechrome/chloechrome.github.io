@@ -3,9 +3,9 @@
 
 #barl 			{flex:2;width:20%;}
 #middle 		{flex:5;width:100%;height:100%;padding:10px;border-left:0px solid white;border-right:0px solid white;margin-bottom:40px;}
-#quote		{height:110px}
+#quote			{height:110px}
 
 header 			{border-bottom: 2px solid white;display:flex;justify-content:center;}
 #barr 			{flex:2;width:20%;display:flex;flex-direction:column;align-content:center;}
 
- #cheats		{border:2px solid lavender;background-color:black;color:lavender}
+#cheats			{border:2px solid lavender;background-color:black;color:lavender}
