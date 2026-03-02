@@ -4,7 +4,7 @@ var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)
 
 			'<i>Living another day in disguise.</i> - Avenged Sevenfold, MIA (City of Evil)',
 			
-			"<i>Don't you think I know what I'm doing? Don't tell me that it's doing me wrong.</i> - System Of A Down, Snowblind (Vicinity of Obscenity/Lonely Day EP)",
+			"<i>Don't you think I know what I'm doing? Don't tell me that it's doing me wrong.</i> - Black Sabbath, Snowblind (Vol. 4)",
 			
 			"<i>Don't try to understand... knowing you, I'm probably wrong.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
 			"<i>Loneliness is not only felt by fools.</i> - Megadeth, In My Darkest Hour (So far, So good...So what!)",
@@ -41,5 +41,6 @@ function quoteReel() {
     const quoteDiv = document.getElementById('quote');
     quoteDiv.innerHTML = `${quoteselect}`;
 }
+
 
 quoteReel()
