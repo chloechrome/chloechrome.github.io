@@ -1,5 +1,4 @@
 var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)',
-			"<i>First, I'll deal with that fucking Façade.</i> - Es, Alter Ego (ID)",
 			"<i>See, there's more than one ending to the story.</i> - Es, Alter Ego (AE)",
 
 			'<i>Living another day in disguise.</i> - Avenged Sevenfold, MIA (City of Evil)',
@@ -14,22 +13,22 @@ var q= [	'<i>You were righteous. You couldnt be swayed.</i> - Es, Alter Ego (SE)
 			
 			'<i>Try to get a better understanding of things before you make your judgement.</i> - Khan, Metro 2033',
 			'<i>You reap what you sow, Artyom. Force answers force, war breeds war, and death only brings death. To break this vicious circle one must do more than just act without any thought or doubt.</i> - Khan, Metro 2033',
+			'<i>Between endless years of hopeless existence and even a single moment of hope, I must choose hope.</i> - Artëm, Metro Exodus',
 
 			"<i>We don't have the luxury of your elevated morals anymore!</i> - Deraker, Chrysalis (13)",
-			"<i>Reparations can't suffice. The Xunvirians murdered my people, so it's only fair I do the same to them.</i> - Terran, Chrysalis (13)",
 			
 			"<i>Leaving this world is not as scary as it sounds.</i> - Richard, Hotline Miami 2",
 			"<i>Do you see this? ... Can you see my face? This is my true nature! You see, don't you? This is who I am! This is who we all are. We're animals! ... There's no denying it! A bunch of goddamn animals!</i> - The Colonel, Hotline Miami 2",
 			
 			"<i>We'll cast some light and you'll be alright</i> - José González, Crosses (Veneer)",
 			
-			"<i>When a door closes, a window opens... Or, something like that.</i> - Max Caulfield, Life is Strange",
-			"<i>I wish I could stay in this moment forever. (...) But then it wouldn't be a moment.</i> - Max Caulfield, Life is Strange",
-			"<i>I'd like to drop a bomb on Arcadia Bay and turn it to fucking glass.</i> - Chloe Price, Life is Strange",
-			"<i> I'm in a nightmare and I can't wake up... unless I put myself to sleep.</i> - Kate Marsh, Life is Strange",
+			"<i>I wish I could stay in this moment forever. ... But then it wouldn't be a moment.</i> - Max Caulfield, Life is Strange",
+			"<i>I'm in a nightmare and I can't wake up... unless I put myself to sleep.</i> - Kate Marsh, Life is Strange",
 			"<i>Even angels need angels, Max.</i> - Kate Marsh, Life is Strange",
 			
 			"<i>What I achieve is not the product of an act of my will but of my will’s surrender. I begin because I don’t have the strength to think; I finish because I don’t have the courage to quit.</i> - Fernando Pessoa, The Book of Disquiet",
+			
+			"<i>Gotta, hold your head up high. Let's pretend we </i>will<i> win!</i> - The Pine, Days Slipping By",
 			
 			"<i>Art. Our holy saving grace.</i>",
 			"<i>Patience will save us.</i>",
